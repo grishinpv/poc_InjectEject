@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "poc_InjectEject", "poc_InjectEject\poc_UnloadSnSRS.vcxproj", "{64A1ADFD-E503-4FC2-9D93-052B79CA380B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "evilDll", "evilDll\evilDll.vcxproj", "{0055C603-5740-4405-8D4D-FB79FE4DB993}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "evilDll_reflected", "evilDll_reflected\evilDll_reflected.vcxproj", "{7644910F-1E2C-4A95-8B06-A838F99558A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "evilDllTest", "evilDllTest\evilDllTest.vcxproj", "{2B6BEA7F-CC44-4AF3-8F5C-6D37E6F12305}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_EvilDllTest|x64 = Debug_EvilDllTest|x64
+		Debug_EvilDllTest|x86 = Debug_EvilDllTest|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64A1ADFD-E503-4FC2-9D93-052B79CA380B}.Debug_EvilDllTest|x64.ActiveCfg = Debug_EvilDllTest|x64
+		{64A1ADFD-E503-4FC2-9D93-052B79CA380B}.Debug_EvilDllTest|x86.ActiveCfg = Debug_EvilDllTest|x64
+		{64A1ADFD-E503-4FC2-9D93-052B79CA380B}.Debug|x64.ActiveCfg = Debug_EvilDllTest|x64
+		{64A1ADFD-E503-4FC2-9D93-052B79CA380B}.Debug|x86.ActiveCfg = Debug_EvilDllTest|x64
+		{64A1ADFD-E503-4FC2-9D93-052B79CA380B}.Release|x64.ActiveCfg = Release|x64
+		{64A1ADFD-E503-4FC2-9D93-052B79CA380B}.Release|x86.ActiveCfg = Release|x64
+		{0055C603-5740-4405-8D4D-FB79FE4DB993}.Debug_EvilDllTest|x64.ActiveCfg = Debug_EvilDllTest|x64
+		{0055C603-5740-4405-8D4D-FB79FE4DB993}.Debug_EvilDllTest|x86.ActiveCfg = Debug_EvilDllTest|x64
+		{0055C603-5740-4405-8D4D-FB79FE4DB993}.Debug|x64.ActiveCfg = Debug_EvilDllTest|x64
+		{0055C603-5740-4405-8D4D-FB79FE4DB993}.Debug|x86.ActiveCfg = Debug_EvilDllTest|x64
+		{0055C603-5740-4405-8D4D-FB79FE4DB993}.Release|x64.ActiveCfg = Release|x64
+		{0055C603-5740-4405-8D4D-FB79FE4DB993}.Release|x86.ActiveCfg = Release|x64
+		{7644910F-1E2C-4A95-8B06-A838F99558A8}.Debug_EvilDllTest|x64.ActiveCfg = Debug_EvilDllTest|x64
+		{7644910F-1E2C-4A95-8B06-A838F99558A8}.Debug_EvilDllTest|x86.ActiveCfg = Debug_EvilDllTest|x64
+		{7644910F-1E2C-4A95-8B06-A838F99558A8}.Debug|x64.ActiveCfg = Debug_EvilDllTest|x64
+		{7644910F-1E2C-4A95-8B06-A838F99558A8}.Debug|x86.ActiveCfg = Debug_EvilDllTest|x64
+		{7644910F-1E2C-4A95-8B06-A838F99558A8}.Release|x64.ActiveCfg = Release|x64
+		{7644910F-1E2C-4A95-8B06-A838F99558A8}.Release|x86.ActiveCfg = Release|x64
+		{2B6BEA7F-CC44-4AF3-8F5C-6D37E6F12305}.Debug_EvilDllTest|x64.ActiveCfg = Debug_EvilDllTest|x64
+		{2B6BEA7F-CC44-4AF3-8F5C-6D37E6F12305}.Debug_EvilDllTest|x64.Build.0 = Debug_EvilDllTest|x64
+		{2B6BEA7F-CC44-4AF3-8F5C-6D37E6F12305}.Debug_EvilDllTest|x86.ActiveCfg = Debug_EvilDllTest|x64
+		{2B6BEA7F-CC44-4AF3-8F5C-6D37E6F12305}.Debug_EvilDllTest|x86.Build.0 = Debug_EvilDllTest|x64
+		{2B6BEA7F-CC44-4AF3-8F5C-6D37E6F12305}.Debug|x64.ActiveCfg = Debug_EvilDllTest|x64
+		{2B6BEA7F-CC44-4AF3-8F5C-6D37E6F12305}.Debug|x64.Build.0 = Debug_EvilDllTest|x64
+		{2B6BEA7F-CC44-4AF3-8F5C-6D37E6F12305}.Debug|x86.ActiveCfg = Debug_EvilDllTest|x64
+		{2B6BEA7F-CC44-4AF3-8F5C-6D37E6F12305}.Debug|x86.Build.0 = Debug_EvilDllTest|x64
+		{2B6BEA7F-CC44-4AF3-8F5C-6D37E6F12305}.Release|x64.ActiveCfg = Release|x64
+		{2B6BEA7F-CC44-4AF3-8F5C-6D37E6F12305}.Release|x64.Build.0 = Release|x64
+		{2B6BEA7F-CC44-4AF3-8F5C-6D37E6F12305}.Release|x86.ActiveCfg = Release|x64
+		{2B6BEA7F-CC44-4AF3-8F5C-6D37E6F12305}.Release|x86.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {451FEFC5-A3C8-4487-AA31-4093C007C8F0}
+	EndGlobalSection
+EndGlobal

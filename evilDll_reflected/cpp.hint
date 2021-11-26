@@ -1,0 +1,2 @@
+﻿#define EVILDLLREFLECTED_API __declspec(dllexport)
+#define EVILDLLREFLECTED_API __declspec(dllimport)
